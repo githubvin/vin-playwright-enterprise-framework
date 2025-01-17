@@ -8,8 +8,11 @@ test(`simple login test`, async({page}) => {
     const loginPage = new LoginPage(page); 
 
     await loginPage.navigateToLoginPage(); 
-    await loginPage.fillUsername("vinothksc@gmail.com"); 
-    await loginPage.fillPassword("Salesforce@1"); 
+    // await loginPage.fillUsername("vinothksc@gmail.com"); 
+    // await loginPage.fillPassword("Salesforce@1"); 
+    // to avoid hardcoding we are passing the credentials from env file 
+    await loginPage.fillUsername(process.env.userid!); 
+    await loginPage.fillPassword(process.env.password!); 
 
     const homePage = await loginPage.clickLoginButton(); 
     // here we are creating homepage object at the step of click login since it will return HomePage 

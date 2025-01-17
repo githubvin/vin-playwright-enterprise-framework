@@ -6,7 +6,15 @@ import { defineConfig, devices } from '@playwright/test';
  */
 // import dotenv from 'dotenv';
 // import path from 'path';
-// dotenv.config({ path: path.resolve(__dirname, '.env') });
+// dotenv.config({ path: path.resolve(__dirname, '.env') }); 
+
+
+//here we are defining NODE_ENV while executing to pick different environments to run the scripts 
+if (!process.env.NODE_ENV) {
+  require("dotenv").config({path: `${__dirname}//src//config//.env`})
+} else {
+  require("dotenv").config({path: `${__dirname}//src//config//.env.${process.env.NODE_ENV}`})
+}
 
 /**
  * See https://playwright.dev/docs/test-configuration.
