@@ -2,7 +2,7 @@
 import { test } from "@playwright/test";
 import LoginPage from "../pages/LoginPage"; 
 import { encrypt, decrypt } from "../utils/CryptojsUtil"; 
-import { encryptEnvFile, decryptEnvFile } from "../utils/EncryptenvFile";
+// import { encryptEnvFile, decryptEnvFile } from "../utils/EncryptenvFile"; 
 
 
 test(`simple login test`, async({page}) => {
