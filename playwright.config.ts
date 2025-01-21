@@ -45,12 +45,22 @@ export default defineConfig({
   projects: [
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+      use: { ...devices['Desktop Chrome'], 
+        ignoreHTTPSErrors: true, 
+        launchOptions: {
+          args: ["--start-maximized"]
+        }
+       },
     },
 
     {
       name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
+      use: { ...devices['Desktop Firefox'], 
+        ignoreHTTPSErrors: true, 
+        launchOptions: {
+          args: ["--start-maximized"]
+        }
+       },
     },
 
     {
