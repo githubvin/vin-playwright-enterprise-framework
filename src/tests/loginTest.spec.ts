@@ -1,6 +1,7 @@
 
 import { test } from "@playwright/test";
 import LoginPage from "../pages/LoginPage"; 
+import logger from "../utils/LoggerUtil";
 import { encrypt, decrypt } from "../utils/CryptojsUtil"; 
 // import { encryptEnvFile, decryptEnvFile } from "../utils/EncryptenvFile"; 
 
@@ -20,6 +21,7 @@ test(`simple login test`, async({page}) => {
     // here we are creating homepage object at the step of click login since it will return HomePage 
     // this is called page object chaining. Login and home page arrival is clubbed or chained 
     await homePage.expectServiceTitleToBeVisible(); 
+    logger.info("Test for login is completed"); 
 
 }) 
 
