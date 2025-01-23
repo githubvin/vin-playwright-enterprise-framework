@@ -4,12 +4,12 @@ import logger from "../utils/LoggerUtil";
 // import cdata from "../data/contacts.json"; 
 import cdata from "../data/contactsdatademo.json"; 
 import { convertCsvFileToJsonFile } from "../utils/CsvtoJsonUtil"; 
-// import { exportToCsv, exportToJson, generateTestData } from "../utils/FakerDataUtil";
-// import { demoOutput } from "../utils/fakersample";
+import { exportToCsv, exportToJson, generateTestData } from "../utils/FakerDataUtil";
+import { demoOutput } from "../utils/fakersample"; 
 import LoginPage from "../pages/LoginPage";
 
 for (const contact of cdata) {
-  test(`Advance DD test for ${contact.firstName} `, async ({ page }) => {
+  test.skip(`Advance DD test for ${contact.firstName} `, async ({ page }) => {
     logger.info("Test for Contact Creation is started...");
     const loginPage = new LoginPage(page);
     await loginPage.navigateToLoginPage();
@@ -52,7 +52,7 @@ test.skip("csv to json", async () => {
 });
 
 
-test.skip("demo faker", async () => { 
+test("demo faker", async () => { 
 
   console.log(demoOutput)
 
