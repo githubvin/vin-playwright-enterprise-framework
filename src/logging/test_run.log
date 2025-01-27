@@ -357,3 +357,120 @@ Call log:
 [2m  - expect.toBeVisible with timeout 15000ms[22m
 [2m  - waiting for getByTitle('Service')[22m
 
+2025-01-27T11:47:15+05:30 [info]: Navigated to login.salesforce.com
+2025-01-27T11:47:15+05:30 [info]: Filled username
+2025-01-27T11:47:15+05:30 [info]: Filled password
+2025-01-27T11:47:16+05:30 [info]: Clicked login button
+2025-01-27T11:47:16+05:30 [info]: Navigated to login.salesforce.com
+2025-01-27T11:47:16+05:30 [info]: Filled username
+2025-01-27T11:47:16+05:30 [info]: Filled password
+2025-01-27T11:47:17+05:30 [info]: Clicked login button
+2025-01-27T11:47:18+05:30 [info]: Navigated to login.salesforce.com
+2025-01-27T11:47:18+05:30 [info]: Filled username
+2025-01-27T11:47:18+05:30 [info]: Filled password
+2025-01-27T11:47:18+05:30 [info]: Clicked login button
+2025-01-27T11:47:31+05:30 [error]: Error clicking login button: Error: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+
+2025-01-27T11:47:32+05:30 [error]: Error clicking login button: Error: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+
+2025-01-27T11:47:33+05:30 [error]: Error clicking login button: Error: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+
+2025-01-27T11:47:34+05:30 [info]: Navigated to login.salesforce.com
+2025-01-27T11:47:34+05:30 [info]: Filled username
+2025-01-27T11:47:35+05:30 [info]: Filled password
+2025-01-27T11:47:36+05:30 [info]: Navigated to login.salesforce.com
+2025-01-27T11:47:36+05:30 [info]: Filled username
+2025-01-27T11:47:36+05:30 [info]: Filled password
+2025-01-27T11:47:36+05:30 [info]: Clicked login button
+2025-01-27T11:47:37+05:30 [info]: Clicked login button
+2025-01-27T11:47:37+05:30 [info]: Navigated to login.salesforce.com
+2025-01-27T11:47:38+05:30 [info]: Filled username
+2025-01-27T11:47:38+05:30 [info]: Filled password
+2025-01-27T11:47:39+05:30 [info]: Clicked login button
+2025-01-27T11:47:51+05:30 [error]: Error clicking login button: Error: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+
+2025-01-27T11:47:52+05:30 [error]: Error clicking login button: Error: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+
+2025-01-27T11:47:54+05:30 [error]: Error clicking login button: Error: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+
+2025-01-27T11:47:54+05:30 [info]: Navigated to login.salesforce.com
+2025-01-27T11:47:54+05:30 [info]: Filled username
+2025-01-27T11:47:54+05:30 [info]: Filled password
+2025-01-27T11:47:55+05:30 [info]: Clicked login button
+2025-01-27T11:47:57+05:30 [info]: Navigated to login.salesforce.com
+2025-01-27T11:47:57+05:30 [info]: Filled username
+2025-01-27T11:47:57+05:30 [info]: Filled password
+2025-01-27T11:47:59+05:30 [info]: Clicked login button
+2025-01-27T11:48:00+05:30 [info]: Navigated to login.salesforce.com
+2025-01-27T11:48:00+05:30 [info]: Filled username
+2025-01-27T11:48:00+05:30 [info]: Filled password
+2025-01-27T11:48:00+05:30 [info]: Clicked login button
+2025-01-27T11:48:10+05:30 [error]: Error clicking login button: Error: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+
+2025-01-27T11:48:15+05:30 [error]: Error clicking login button: Error: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+
+2025-01-27T11:48:15+05:30 [error]: Error clicking login button: Error: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+
