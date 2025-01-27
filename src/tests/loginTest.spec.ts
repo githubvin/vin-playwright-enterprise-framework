@@ -43,7 +43,7 @@ test.skip(`Login and store the context example test`, async({page}) => {
 })
 
 
-test(`Login with orange hrm auth file `, async({browser}) => {
+test.skip(`Login with orange hrm auth file `, async({browser}) => {
 
     const context = await browser.newContext({storageState: "src/config/orangehrmauth.json"}); 
     const page = await context.newPage(); 

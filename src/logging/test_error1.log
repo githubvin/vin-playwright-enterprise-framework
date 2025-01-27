@@ -52,3 +52,84 @@ Call log:
 [2m  - expect.toBeVisible with timeout 15000ms[22m
 [2m  - waiting for getByTitle('Service')[22m
 
+2025-01-27T13:24:24+05:30 [error]: Error clicking login button: Error: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+
+2025-01-27T13:24:25+05:30 [error]: Error clicking login button: Error: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+
+2025-01-27T13:24:25+05:30 [error]: Error clicking login button: Error: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+
+2025-01-27T13:24:43+05:30 [error]: Error clicking login button: Error: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+
+2025-01-27T13:24:44+05:30 [error]: Error clicking login button: Error: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+
+2025-01-27T13:24:47+05:30 [error]: Error clicking login button: Error: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+
+2025-01-27T13:25:01+05:30 [error]: Error clicking login button: Error: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+
+2025-01-27T13:25:04+05:30 [error]: Error clicking login button: Error: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+
+2025-01-27T13:25:07+05:30 [error]: Error clicking login button: Error: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+

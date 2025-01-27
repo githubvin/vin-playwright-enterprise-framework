@@ -41,6 +41,15 @@ export default class ContactsPage {
       
       }
       
+    
+      async findExistingContactByLastName(lname:string) {
+
+        await this.page.getByRole("link", { name: this.contactsLink }).click();
+        await this.page.getByPlaceholder(this.searchBoxLocator).click();
+        await this.page.getByPlaceholder(this.searchBoxLocator).fill(lname);
+        await this.page.getByPlaceholder(this.searchBoxLocator).press("Enter");
+        await this.page.getByRole("link", { name: lname }).click(); 
+      }  
       
 
 }
