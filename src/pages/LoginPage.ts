@@ -1,7 +1,8 @@
 
-import {Page} from "@playwright/test"; 
+import {Page,expect} from "@playwright/test"; 
 import HomePage from "./HomePage"; 
-import logger from "../utils/LoggerUtil";
+import logger from "../utils/LoggerUtil"; 
+import findValidElement from "../utils/SelfHealingUtil";
 
 export default class LoginPage {
 
@@ -32,6 +33,15 @@ export default class LoginPage {
         await this.page.locator(this.usernameInputSelector).fill(username);  
         logger.info("Filled username"); 
     } 
+
+    // function that uses self-heal locators 
+    // from the list of locators it automatically pick the others if anyone fails 
+    async fillUsername_selfheal(username: string) {
+        let usernameInputLocator = await findValidElement(this.page, this.usernameInputSelectors); 
+        await usernameInputLocator?.fill(username); 
+        const enteredValue = await usernameInputLocator?.inputValue();
+        expect(enteredValue).toBe(username);
+    }
 
     async fillPassword(password: string) {
         await this.page.locator(this.passwordInputSelector).fill(password); 

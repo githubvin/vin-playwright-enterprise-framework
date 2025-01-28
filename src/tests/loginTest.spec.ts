@@ -8,6 +8,14 @@ import { encrypt, decrypt } from "../utils/CryptojsUtil";
 // declaring variable to store the authentication with storage context 
 const authFile = "src/config/auth.json"; 
 
+test("simple login test with self heal", async ({ page }) => {
+    const loginPage = new LoginPage(page);
+    await loginPage.navigateToLoginPage();
+    await loginPage.fillUsername_selfheal("demo_selfheal");
+  });
+
+
+
 test.skip(`simple login test`, async({page}) => {
     
     const loginPage = new LoginPage(page); 

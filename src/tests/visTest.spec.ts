@@ -37,4 +37,4 @@ test('Screenshot compare test', async ({ page}) => {
   await loginPage.fillUsername("demo");
 //   await page.screenshot({path: "screen.png"})
   await expect(page).toHaveScreenshot();
-});
+}); 
